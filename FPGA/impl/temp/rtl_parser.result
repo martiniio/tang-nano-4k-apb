@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/soc_top.vhd",
+  "InstLine" : 5,
+  "InstName" : "soc_top",
+  "ModuleFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/soc_top.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "soc_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/soc_top.vhd",
+    "InstLine" : 44,
+    "InstName" : "cortexM3_inst",
+    "ModuleFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/gowin_empu/gowin_empu.vhd",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_EMPU_Top"
+   },
+   {
+    "InstFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/soc_top.vhd",
+    "InstLine" : 68,
+    "InstName" : "pllvr_inst",
+    "ModuleFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/gowin_pllvr/gowin_pllvr.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/soc_top.vhd",
+    "InstLine" : 75,
+    "InstName" : "apb_slave_inst",
+    "ModuleFile" : "C:/Users/30698/tang-nano-4k-apb/FPGA/src/apb_slave_regbank.vhd",
+    "ModuleLine" : 27,
+    "ModuleName" : "apb_slave_regbank"
+   }
+  ]
+ }
+]

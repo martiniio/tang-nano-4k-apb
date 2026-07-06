@@ -1,0 +1,63 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\30698\tang-nano-4k-apb\FPGA\src\apb_slave_regbank.vhd'
+Analyzing entity 'apb_slave_regbank'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\apb_slave_regbank.vhd":27)
+Analyzing architecture 'rtl'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\apb_slave_regbank.vhd":58)
+Analyzing VHDL file 'C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd'
+Analyzing entity 'gw_gpio'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing entity 'gw_sram4'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing entity 'gw_cmsdk_apb2_slave_mux'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing entity 'gw_peripherals_interconnect'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing entity '\~Gowin_EMPU.Gowin_EMPU_Top\'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing entity 'gowin_empu_top'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing architecture 'beh'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Analyzing VHDL file 'C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_pllvr\gowin_pllvr.vhd'
+Analyzing entity 'gowin_pllvr'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_pllvr\gowin_pllvr.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_pllvr\gowin_pllvr.vhd":19)
+Analyzing VHDL file 'C:\Users\30698\tang-nano-4k-apb\FPGA\src\soc_top.vhd'
+Analyzing entity 'soc_top'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\soc_top.vhd":5)
+Analyzing architecture 'structural'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\soc_top.vhd":14)
+Processing 'soc_top(structural)'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\soc_top.vhd":5)
+WARN  (EX4546) : Not all partial formals of 'gpio' have actuals("C:\Users\30698\tang-nano-4k-apb\FPGA\src\soc_top.vhd":46)
+Processing '**(**)'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Processing 'Gowin_PLLVR(Behavioral)'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_pllvr\gowin_pllvr.vhd":12)
+Processing 'apb_slave_regbank(rtl)'("C:\Users\30698\tang-nano-4k-apb\FPGA\src\apb_slave_regbank.vhd":27)
+NOTE  (EX0101) : Current top module is "soc_top"
+[5%] Running netlist conversion ...
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio2" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio3" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio4" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio5" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio6" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio7" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio8" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio9" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio10" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio11" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio12" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio13" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio14" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio15" with dangling iopin("C:\Users\30698\tang-nano-4k-apb\FPGA\src\gowin_empu\gowin_empu.vhd":817)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\30698\tang-nano-4k-apb\FPGA\impl\gwsynthesis\Lesson1.vg" completed
+[100%] Generate report file "C:\Users\30698\tang-nano-4k-apb\FPGA\impl\gwsynthesis\Lesson1_syn.rpt.html" completed
+GowinSynthesis finish
