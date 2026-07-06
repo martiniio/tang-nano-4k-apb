@@ -1,20 +1,25 @@
 //Copyright (C)2014-2025 Gowin Semiconductor Corporation.
 //All rights reserved. 
 //File Title: Physical Constraints file
-//Tool Version: V1.9.11.03 Education
+//Tool Version: V1.9.12.01 (64-bit)
 //Part Number: GW1NSR-LV4CQN48PC6/I5
 //Device: GW1NSR-4C
-//Created Time: Sat 12 20 20:10:41 2025
+//Created Time: Mon 07 06 20:14:49 2026
 
-IO_LOC "gpio[1]" 14;
-IO_PORT "gpio[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
-IO_LOC "gpio[0]" 10;
-IO_PORT "gpio[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
-IO_LOC "UART_TX" 39;
-IO_PORT "UART_TX" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
 IO_LOC "UART_RX" 40;
 IO_PORT "UART_RX" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "UART_TX" 39;
+IO_PORT "UART_TX" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gpio[0]" 10;
+IO_PORT "gpio[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "gpio[1]" 14;
+IO_PORT "gpio[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
 IO_LOC "reset_n" 15;
 IO_PORT "reset_n" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
 IO_LOC "xtal_clk" 45;
 IO_PORT "xtal_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+INS_LOC "cortexM3_inst/Gowin_EMPU_inst/u_sram_subsystem/bram_sdp_0" BSRAM_R10[0];
+INS_LOC "cortexM3_inst/Gowin_EMPU_inst/u_sram_subsystem/bram_sdp_1" BSRAM_R10[1];
+INS_LOC "cortexM3_inst/Gowin_EMPU_inst/u_sram_subsystem/bram_sdp_2" BSRAM_R10[3];
+INS_LOC "cortexM3_inst/Gowin_EMPU_inst/u_sram_subsystem/bram_sdp_3" BSRAM_R10[5];
+INS_LOC "pllvr_inst/pllvr_inst_s4" PLL_L;
